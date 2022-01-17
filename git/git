@@ -9,3 +9,7 @@ $ git remote origin remote저장주소 //repository와 local과 연결.
 $ git remote -v // 연결상태 확인
 $ git log //commit 내역확인
 $ git status // WD&SA를 확인하는 명령어로 습관적으로 사용하자!
+
+
+$ git remote remove origin // 기존 repository 삭제
+$ git remote add origin https://github.com/my accounts/repository
