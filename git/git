@@ -12,4 +12,4 @@ $ git status // WD&SA를 확인하는 명령어로 습관적으로 사용하자!
 
 
 $ git remote remove origin // 기존 repository 삭제
-$ git remote add origin https://github.com/my accounts/repository
+$ git remote add origin https://github.com/my accounts/repository //
