@@ -1,0 +1,52 @@
+1. Start
+
+2. Declare people=0, child = 0, adult = 0, senior = 0, total, age, coverCharge, showTime, ticketType, perTicketPrice, prodType, discount, totalEntryCost, i
+
+3. Enter the number of people entering. Assign to people
+
+
+4. i = 0
+
+5. Enter age of person i+1. Assign to age
+
+
+6. age?
+   a. <18         : a1. child += 1
+   b. 18<=age<65  : b1. adult += 1
+   c. >=65        :c1. senior += 1
+
+7. i+=1
+
+8. i < Total?
+	a. Yes: Go to #5
+
+9. coverCharge = child*0.50 + adult*5.50 + senior*1.25
+
+10. Musical? Theatre?( Assign to prodFeature )
+
+11. Enter Showtime, Assign to showtime
+
+12. Showtime * 100
+
+13.showTime?
+   a. 1200<=showTime<=1600?
+   a1.ticketType = Matinee
+   a2.prodType?
+	 a2i.  Musical: perTicketPrice = 88
+	 a2ii. Theatre: perTicketPrice = 78
+
+   b. 1800<=showTime<=2100?
+   b1. ticketType = Evening
+   b2. prodType?
+	b2i.  Musical: perTicketPrice = 175
+	b2ii. Theatre: perTicketPrice = 165
+
+14. discount rate to number of people ?
+   a. == 2.        : a1. discount = 5%
+   b. == 3.        : b1. discount = 10%
+   c. == 4         : c1. discount = 15%
+   d. >= 5         : d1. discount = 20%
+
+15. totalEntryCost = coverCharge + total * perTicketPrice * (1 - discount)
+
+16. End
