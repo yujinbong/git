@@ -1,0 +1,11 @@
+$ git init //git repository를 만들거나 이미있는 repository를 초기화하는 명령
+$ git add . //모든파일을 다 add
+$ git add file //내가 올리고싶은 file
+$ git commit -m "message" // git commit syntax
+$ git push orign master // push
+
+
+$ git remote origin remote저장주소 //repository와 local과 연결.
+$ git remote -v // 연결상태 확인
+$ git log //commit 내역확인
+$ git status // WD&SA를 확인하는 명령어로 습관적으로 사용하자!
